@@ -62,5 +62,5 @@ If you use this framework or reference the comparative findings in an academic c
 @article{alashwal2026variance,
   title={Variance Reduction Techniques for Monte Carlo Pricing of European Call Options},
   author={Alashwal, Ayham Amin},
-  year={2025}
+  year={2026}
 }
