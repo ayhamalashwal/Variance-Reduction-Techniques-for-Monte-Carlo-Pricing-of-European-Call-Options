@@ -7,7 +7,7 @@ Comparing the effeciency of several different variance reduction methods.
 
 A comparative quantitative finance framework implementing and benchmark-testing classic Monte Carlo variance reduction techniques for pricing European call options under the Black-Scholes model.
 
-This repository hosts the official code implementation accompanying the research paper: **"Variance Reduction Techniques for Monte Carlo Pricing of European Call Options"**.
+This repository hosts the official code implementation accompanying the research paper: [**"Variance Reduction Techniques for Monte Carlo Pricing of European Call Options"**](draft.pdf).
 
 ---
 
