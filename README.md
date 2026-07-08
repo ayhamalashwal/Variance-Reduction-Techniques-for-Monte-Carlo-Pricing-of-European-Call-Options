@@ -48,7 +48,7 @@ pip install numpy scipy matplotlib
 ## 🚀 How to Run the Simulation
 
 1. Clone this repository to your local machine:
-   git clone https://github.com/ayhamalashwal/option-pricing-variance-reduction.git
+   git clone https://github.com/ayhamalashwal/Variance-Reduction-Techniques-for-Monte-Carlo-Pricing-of-European-Call-Options.git
 
 2. Open the notebook file in Visual Studio Code or Jupyter:
    Variance Reduction Techniques for Monte Carlo Pricing of European Call Options.ipynb
