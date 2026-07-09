@@ -13,7 +13,7 @@ This repository hosts the official code implementation accompanying the research
 
 ## 📊 Overview
 
-Monte Carlo simulation is a highly flexible numerical tool for evaluating financial derivatives, but its standard convergence rate of $O(N^{-1/2})$ demands significant computational overhead for high-precision pricing. This project systematically implements and visualizes three foundational variance reduction methodologies to optimize estimator efficiency:
+Monte Carlo simulation is a highly flexible numerical tool for evaluating financial derivatives, but its standard convergence rate of N^{-1/2} demands significant computational overhead for high-precision pricing. This project systematically implements and visualizes three foundational variance reduction methodologies to optimize estimator efficiency:
 
 1. **Antithetic Variates:** Exploits distribution symmetry by utilizing negatively correlated variable pairs to lower overall sampling variance.
 2. **Control Variates:** Minimizes estimator error by applying an analytically tracking correction coefficient against the terminal stock price.
@@ -23,10 +23,10 @@ Monte Carlo simulation is a highly flexible numerical tool for evaluating financ
 
 ## 📈 Performance Benchmarks
 
-The simulation evaluates pricing errors across six scale dimensions (N = 2^10$ up to N = 2^20$) over 30 independent runs to evaluate convergence standard deviations against the closed-form analytical Black-Scholes baseline.
+The simulation evaluates pricing errors across six scale dimensions (N = 2^10 up to N = 2^20) over 30 independent runs to evaluate convergence standard deviations against the closed-form analytical Black-Scholes baseline.
 
-* **Antithetic Variates:** Delivers a stable variance reduction factor of approximately $1.5\times$ to $2\times$.
-* **Control Variates:** Achieves a powerful efficiency increase, outperforming baseline errors by $4\times$ to $6\times$.
+* **Antithetic Variates:** Delivers a stable variance reduction factor of approximately 1.5 times to 2 times.
+* **Control Variates:** Achieves a powerful efficiency increase, outperforming baseline errors by 4 times to 6 times.
 * **Quasi-Monte Carlo (Sobol):** Demonstrates exceptional precision scaling, reducing pricing error variance by up to **two orders of magnitude** compared to naive sampling.
 
 ---
