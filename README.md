@@ -23,7 +23,7 @@ Monte Carlo simulation is a highly flexible numerical tool for evaluating financ
 
 ## 📈 Performance Benchmarks
 
-The simulation evaluates pricing errors across six scale dimensions (N = 1,000$ up to N = 1,000,000$) over 30 independent runs to evaluate convergence standard deviations against the closed-form analytical Black-Scholes baseline.
+The simulation evaluates pricing errors across six scale dimensions (N = 2^10$ up to N = 2^20$) over 30 independent runs to evaluate convergence standard deviations against the closed-form analytical Black-Scholes baseline.
 
 * **Antithetic Variates:** Delivers a stable variance reduction factor of approximately $1.5\times$ to $2\times$.
 * **Control Variates:** Achieves a powerful efficiency increase, outperforming baseline errors by $4\times$ to $6\times$.
